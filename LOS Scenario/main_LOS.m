@@ -1,9 +1,11 @@
 
-
+% MAP-CSI Implamentation for LOS Scenario
+% Author: Katarina Vuckovic, kvuckovic@knights.ucf.edu
+% Date: June 26, 2021
+%-------------------------------------------------------------------------%
 clear all
 close all
 clc
-
 %Load data and initialize variables
 %--------------------------------------------------------------------------%
 load('LOS_CSI60x60.mat')
@@ -22,7 +24,7 @@ color = ['b.';'y.';'r.';'c.';'m.';'w.';'k.';'b*';'r*'];
 %Convert CSI to ADP and extract top P angles, delays, powers
 %--------------------------------------------------------------------------%
 CSI =  reshape(H(sample,:,:),[Nt Nc]);
-ADP = abs(CSI2ADP_theta_NN(CSI,Ntt,Ncc, Nt, Nc));
+ADP = abs(CSI2ADP_theta_NN(CSI,Ntt,Ncc, Nt, Nc)); % Eq(5)
 [angles,delays,powers] = ADPPeaksUnique1(ADP,P)
 
 angles = m*angles;
