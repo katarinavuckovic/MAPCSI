@@ -20,8 +20,7 @@ main_LOS.m is the main demo file. The output of the main_LOS is a 2D Map of the 
 Same as LOS scenario, expect it is used for datasets generated from "colocated camera with blocked view". 
 The image displays two rectangles on the map that represent the buses. 
 
-
-![image](https://user-images.githubusercontent.com/71682568/124682644-4b529d00-de99-11eb-95da-525e32e1242f.png)
+![image](https://user-images.githubusercontent.com/71682568/124682853-c87e1200-de99-11eb-9d93-f5b693d7a6eb.png)
 
 ## Questions 
 If you have any question regarding the codes, dont hesitate to contact me at kvuckovic993@gmail.com or kvuckovic@knights.ucf.edu
