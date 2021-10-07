@@ -26,4 +26,4 @@ The image displays two rectangles on the map that represent the buses.
 If you have any question regarding the codes, dont hesitate to contact me at kvuckovic993@gmail.com or kvuckovic@knights.ucf.edu
 
 ## Paper
-TBD
+[Here](https://arxiv.org/abs/2110.00654)
